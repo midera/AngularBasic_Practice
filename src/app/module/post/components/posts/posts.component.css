@@ -1,0 +1,10 @@
+
+.box {
+
+  display: flex;
+}
+
+.post-blocks {
+  padding: 15px;
+  width: 50%;
+}

@@ -1,0 +1,8 @@
+<div [className]="['box']">
+  <div [className]="['user-blocks']">
+    <app-user *ngFor="let user of users" [user]="user"></app-user>
+  </div>
+  <div [className]="['posts']">
+    <router-outlet></router-outlet>
+  </div>
+</div>
